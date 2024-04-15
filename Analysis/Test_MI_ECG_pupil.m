@@ -1,6 +1,6 @@
-% Load ECG data
+% Load pupil data
 load("sub_032.mat")
-% Load pupil diameter data
+% Load ECG data
 load("sub-032_task-memory_ecg.mat")
 
 % Extract pupil diameter data
