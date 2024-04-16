@@ -6,10 +6,10 @@ eeglab
 %%
 
 % Load ECG data
-load("sub-032_task-memory_ecg.mat")
+load("//client/d$/UGent_gerelateerd/Masterproef/Data/ECGprepro/sub-032_task-memory_ecg.mat");
 
 % Load EEG data
-eeg_data = pop_loadset('filename', 'sub-032_task-memory_eeg.set');
+eeg_data = pop_loadset('filename', '//client/d$/UGent_gerelateerd/Masterproef/Data/EEGprepro/sub-032_task-memory_eeg.set');
 
 %%
 
